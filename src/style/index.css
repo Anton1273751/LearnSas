@@ -107,7 +107,7 @@ legend {
 }
 
 body {
-  background: #fbf8ec;
+  background: white;
 }
 
 .container {
@@ -117,94 +117,23 @@ body {
   box-sizing: content-box;
 }
 
-.Articles-inner {
-  display: flex;
-  height: 100%;
+.clients {
+  background-image: url(/src/images/block-area.webp);
 }
-
-.Articles__title {
-  color: #414141;
-  font-family: Rubik;
-  font-size: 36px;
+.clients__title {
+  color: #222;
+  font-family: Nunito Sans;
+  font-size: 28px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 150%;
+  text-transform: uppercase;
+  margin-top: 80px;
 }
-
-.Articles__card {
+.clients__card {
   display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-}
-
-.card__img {
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: center;
-     object-position: center;
-}
-
-.card__content {
-  display: flex;
-  width: 376px;
+  width: 584px;
+  height: 180px;
   flex-direction: column;
-}
-
-.card__img {
-  width: 376px;
-  height: 162px;
-}
-
-.card__text {
-  display: flex;
-  width: 376px;
-  padding: 10px;
-  flex-direction: column;
-  margin-top: 10px;
-}
-
-.card__date {
-  align-self: stretch;
-  color: #8f8f8f;
-  font-family: Rubik;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-}
-
-.card__title {
-  color: #414141;
-  font-family: Rubik;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 150%;
-  margin-top: 10px;
-}
-
-.card__article {
-  color: #414141;
-  font-family: Rubik;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  margin-top: 10px;
-}
-
-.card__btn {
-  display: flex;
-  width: 150px;
-  padding: 8px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  border-radius: 4px;
-  background: #70c05b;
-  margin-top: 10px;
+  align-items: flex-start;
 }/*# sourceMappingURL=index.css.map */
