@@ -5,23 +5,24 @@
 }
 
 .card__img {
-  display: block;
   width: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 .card__content {
   display: flex;
   width: 376px;
-  height: 162px;
   flex-direction: column;
 }
 
 .card__img {
-  object-fit: contain;
-  object-position: center;
+  width: 376px;
+  height: 162px;
 }
 
 .card__text {
   display: flex;
+  width: 376px;
   padding: 10px;
   flex-direction: column;
   margin-top: 10px;
@@ -51,6 +52,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   margin-top: 10px;
 }
 
@@ -62,6 +66,6 @@
   align-items: center;
   gap: 8px;
   border-radius: 4px;
-  background: var(--main-secondary, #70c05b);
+  background: #70c05b;
   margin-top: 10px;
 }
