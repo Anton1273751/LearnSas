@@ -1,5 +1,4 @@
 /* Reset and base styles  */
-@import "//src/";
 * {
   padding: 0px;
   margin: 0px;
@@ -108,7 +107,7 @@ legend {
 }
 
 body {
-  background: white;
+  background: rgb(223, 221, 229);
 }
 
 .container {
@@ -129,15 +128,13 @@ body {
   margin-top: 80px;
 }
 .clients__wrapper {
+  display: flex;
+  height: 100%;
+  margin-top: 60px;
   background-image: url(/src/images/blockarea.webp);
-  -o-object-position: center;
-     object-position: center;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .clients__card {
   display: flex;
-  width: 648px;
-  height: 244px;
   flex-direction: column;
+  padding: 32px;
 }/*# sourceMappingURL=index.css.map */
