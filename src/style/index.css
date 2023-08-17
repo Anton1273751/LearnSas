@@ -1,4 +1,5 @@
 /* Reset and base styles  */
+@import "//src/";
 * {
   padding: 0px;
   margin: 0px;
@@ -117,9 +118,6 @@ body {
   box-sizing: content-box;
 }
 
-.clients {
-  background-image: url(/src/images/block-area.webp);
-}
 .clients__title {
   color: #222;
   font-family: Nunito Sans;
@@ -130,10 +128,16 @@ body {
   text-transform: uppercase;
   margin-top: 80px;
 }
+.clients__wrapper {
+  background-image: url(/src/images/blockarea.webp);
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .clients__card {
   display: flex;
-  width: 584px;
-  height: 180px;
+  width: 648px;
+  height: 244px;
   flex-direction: column;
-  align-items: flex-start;
 }/*# sourceMappingURL=index.css.map */
